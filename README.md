@@ -15,7 +15,9 @@ Data downloaded from https://openweathermap.org/
 
 - HTML
 - CSS
-- React - version 16.8.4 (create-react-app)
+- React - version 16.8.4
+- create-react-app
+- openweathermap API
 
 ## Setup
 
