@@ -34,10 +34,12 @@ npm install
 Go to http://openweathermap.org and create an api_key and copy&paste it to this file like that:
 export const OPENWEATHERMAP_API_KEY = 'key';
 
-###Start project:
+### Start project:
+
 npm start
 
-###Build project:
+### Build project:
+
 npm run build
 
 ## Status
