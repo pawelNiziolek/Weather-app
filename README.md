@@ -13,7 +13,7 @@ Data downloaded from https://openweathermap.org/
 
 ## Technologies
 
-- HTMl
+- HTML
 - CSS
 - React - version 16.8.4 (create-react-app)
 
