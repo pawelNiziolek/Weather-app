@@ -6,7 +6,7 @@ import "./Media.css";
 import Form from "./Form";
 import Result from "./Result";
 
-// klucz API
+// API key
 const APIkey = "01c9e6add6ba8bf0e588714832744cbc";
 
 class App extends Component {

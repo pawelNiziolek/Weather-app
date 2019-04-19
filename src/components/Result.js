@@ -1,11 +1,11 @@
 import React from "react";
 import "./Result.css";
 
-// ikona zachodu słońca : <i class="fas fa-sun"></i>
-// ikona wschodu słońca: <i class="far fa-sun"></i>
-// ikona wiatru: <i class="fas fa-wind"></i>
-// ikona temperatury: <i class="fas fa-temperature-high"></i>
-// ikona ciśnienia: <i class="fas fa-tachometer-alt"></i>
+// sunset icon: <i class="fas fa-sun"></i>
+// sunrise icon: <i class="far fa-sun"></i>
+// wind icon: <i class="fas fa-wind"></i>
+// temperature icon: <i class="fas fa-temperature-high"></i>
+// pressure icon: <i class="fas fa-tachometer-alt"></i>
 
 const Result = props => {
   const {
@@ -19,7 +19,7 @@ const Result = props => {
     error
   } = props.data;
 
-  // aby wyświetlane miasto zawsze zaczynało sie z dużej litery
+  // that the city displayed always starts with a capital letter
   const cityLetter = city.slice(0, 1).toUpperCase();
   const cityNew = cityLetter + city.slice(1);
 
